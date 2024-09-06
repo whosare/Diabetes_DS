@@ -35,3 +35,6 @@ For logistic regression I use accuracy_score and even applied an L2 penality
 Key Takeaways:
 The project showed us what healthcare providers need to pay extra attention to in patients that might contract diabetes. 
 For instance, a patient's glucose levels, BMI, and age can be very indictive of their health and might make them prone to developing diabetes. Of course, these features need to be evaluated further with other factors and taken into consideration with outside factors such as family history, habits, diet, etc. Still, running a program like this and inputting patient's medical records into a model like this can help healthcare providers and patients pay more attention to their health. 
+
+Future Goals:
+To improve this project in the future, I want to look at more datasets because with more data I can more accurately test different features. In a later stage, I want to pay special attention to the machine learning model and fine tune it to be able to predict a patient's proneness to contracting diabetes. That way, the model can be fed patient information from a hospital database and showcase which patients need extra care to help prevent diabetes. This project can even be applied to various other diseases if the right data is present. 
