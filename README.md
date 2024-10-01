@@ -16,16 +16,8 @@ For feature engineering, I utilized F-tests, RFE, and forestClassifier to rank t
 From the results of feature engineering, I removed SkinThickness from one of the variables used for the model. With the remaining data, I split my data into training and split (20%), and then I scaled the data.
 The data was then evaluated using cross_validation and put into the forestClassifier model
 
-I also went ahead and tuned the hyper parameters for the forest model using GridSearchCV:
-Final best parameters:  {'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 100}
-I compared my main model RandomForestClassifier with two more models: GradientBoosting and Logistic Regression
-For gradient boosting i used cross val score with the scaled data to obtain:
-
-![image](https://github.com/user-attachments/assets/d4598463-4f23-48e4-8b70-51b840e2ed1b)
-
+I also went ahead and tuned the hyper parameters for the forest model using GridSearchCV, to make the model perform better. 
 For logistic regression I use accuracy_score and even applied an L2 penality 
-
-![image](https://github.com/user-attachments/assets/8182bbea-36da-474c-8884-7946172f88e7)
 
 Key Takeaways:
 The project showed us what healthcare providers need to pay extra attention to in patients that might contract diabetes. 
