@@ -13,13 +13,8 @@ From the graphs I then started looking into what variables were problematic, as 
 ![image](https://github.com/user-attachments/assets/4f2a5fb4-738b-4107-b50f-093c82de6a5b)
 
 For feature engineering, I utilized F-tests, RFE, and forestClassifier to rank the importance and prevalence of the features.
-
-![image](https://github.com/user-attachments/assets/e1bcfb53-fdcb-48bb-bffa-6631c0d8e1b4)
-
 From the results of feature engineering, I removed SkinThickness from one of the variables used for the model. With the remaining data, I split my data into training and split (20%), and then I scaled the data.
 The data was then evaluated using cross_validation and put into the forestClassifier model
-
-![image](https://github.com/user-attachments/assets/095cd6f6-5441-4c2f-8b88-7522cf723224)
 
 I also went ahead and tuned the hyper parameters for the forest model using GridSearchCV:
 Final best parameters:  {'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 100}
