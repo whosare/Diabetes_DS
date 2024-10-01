@@ -10,8 +10,6 @@ I started visualizing the dataset to determine what consistencies and patterns w
 
 From the graphs I then started looking into what variables were problematic, as in they had collinearity, using correlation matrices, SelectKBest, and RecursiveFeatureElimination.
 
-![image](https://github.com/user-attachments/assets/4f2a5fb4-738b-4107-b50f-093c82de6a5b)
-
 For feature engineering, I utilized F-tests, RFE, and forestClassifier to rank the importance and prevalence of the features.
 From the results of feature engineering, I removed SkinThickness from one of the variables used for the model. With the remaining data, I split my data into training and split (20%), and then I scaled the data.
 The data was then evaluated using cross_validation and put into the forestClassifier model
