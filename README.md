@@ -1,6 +1,6 @@
 # Diabetes_DS
 This is a data science project aimed at understanding a diabetes dataset from Kaggle.
-A short overview of the dataset shows us the 8 featuers and the target variable. 
+A short overview of the dataset shows us the 8 features and the target variable. 
 I started visualizing the dataset to determine what consistencies and patterns were there. Some graphs and models used were pairplots, heatmaps, and histograms.
 
 ![image](https://github.com/user-attachments/assets/72abb6be-17df-4d53-9bb2-28ef68e09ef9)
